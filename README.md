@@ -3,49 +3,49 @@ jTunnel is easy tunneling tools via ssh connection for those who need multiple h
 
 #Configuration
 Configuration file is json look like this:
-
-{
-  Configs:[
-    {
-      "sshUrl":"{tunnelUrl}",
-      "sshUser":"{tunnelUser}",
-      "sshPassword":"{tunnelPassword}",
-      "sshPort":"{tunnelport}",
-      "localPort":"{localport}",
-      "remoteUrl":"{remoteUrl}",
-      "remotePort":"{remotePort}"
-    }
-  ]
-}
-
+<br>
+{<br>
+  Configs:[<br>
+    {<br>
+      "sshUrl":"{tunnelUrl}",<br>
+      "sshUser":"{tunnelUser}",<br>
+      "sshPassword":"{tunnelPassword}",<br>
+      "sshPort":"{tunnelport}",<br>
+      "localPort":"{localport}",<br>
+      "remoteUrl":"{remoteUrl}",<br>
+      "remotePort":"{remotePort}"<br>
+    }<br>
+  ]<br>
+}<br>
+<br>
 After change configuration. You will able to connect to your destination via localhost:{remotePort}.
-
-
+<br>
+<br>
 jTunnel also able to have multiple tunnel connection by add a little bit config into json.
-
-eg.
-{
-  Configs:[
-    {
-      "sshUrl":"{tunnelUrl1}",
-      "sshUser":"{tunnelUser1}",
-      "sshPassword":"{tunnelPassword1}",
-      "sshPort":"{tunnelport1}",
-      "localPort":"{localport1}",
-      "remoteUrl":"{remoteUrl1}",
-      "remotePort":"{remotePort1}"
-    },
-    {
-      "sshUrl":"{tunnelUrl2}",
-      "sshUser":"{tunnelUser2}",
-      "sshPassword":"{tunnelPassword2}",
-      "sshPort":"{tunnelport2}",
-      "localPort":"{localport2}",
-      "remoteUrl":"{remoteUrl2}",
-      "remotePort":"{remotePort2}"
-    }
-  ]
-}
+<br>
+eg.<br>
+{<br>
+  Configs:[<br>
+    {<br>
+      "sshUrl":"{tunnelUrl1}",<br>
+      "sshUser":"{tunnelUser1}",<br>
+      "sshPassword":"{tunnelPassword1}",<br>
+      "sshPort":"{tunnelport1}",<br>
+      "localPort":"{localport1}",<br>
+      "remoteUrl":"{remoteUrl1}",<br>
+      "remotePort":"{remotePort1}"<br>
+    },<br>
+    {<br>
+      "sshUrl":"{tunnelUrl2}",<br>
+      "sshUser":"{tunnelUser2}",<br>
+      "sshPassword":"{tunnelPassword2}",<br>
+      "sshPort":"{tunnelport2}",<br>
+      "localPort":"{localport2}",<br>
+      "remoteUrl":"{remoteUrl2}",<br>
+      "remotePort":"{remotePort2}"<br>
+    }<br>
+  ]<br>
+}<br>
 
 
 
