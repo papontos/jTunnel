@@ -1,0 +1,13 @@
+{
+	"Configs":[
+	{
+		"sshUrl":"tunnelUrl",
+		"sshUser":"tunnelUser",
+		"sshPassword":"tunnelPassword",
+		"sshPort":"tunnelport",
+		"localPort":"localport",
+		"remoteUrl":"remoteUrl",
+		"remotePort":"remotePort"
+	}
+	]
+}
