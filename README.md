@@ -1,7 +1,7 @@
 # jTunnel
 jTunnel is easy tunneling tools via ssh connection for those who need multiple hops of connection.
-
-#Configuration
+<br>
+#Configuration<br>
 Configuration file is json look like this:
 <br>
 {<br>
